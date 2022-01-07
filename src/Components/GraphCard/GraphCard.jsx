@@ -3,12 +3,15 @@ import './graphCard.css'
 import { BarChart, Bar, ResponsiveContainer } from 'recharts';
 
 export default function GraphCard(props) {
+    const formatNum=(x)=>{
+        if(x) return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
     return (
         <div className="card">
             <div className="info">
                 <div className="col">
                     <p>{props.title}</p>
-                    <h4>{props.num}</h4>
+                    <h4>{formatNum(props.num)}</h4>
                 </div>
                 <div className="status" style={{backgroundColor:props.color}}>
                     <p>{props.status}</p>
