@@ -1,6 +1,6 @@
 .bigGraph{
     margin: 1rem 2rem;
-    width: 95%;
+    width: initial;;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -64,6 +64,6 @@
 }
 .bigGraph .graph{
     width: initial;
-    height: 45vh;
+    height: 43vh;
     padding: 1.4rem;
 }

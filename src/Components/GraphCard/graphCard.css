@@ -1,7 +1,7 @@
 .card{
-    width: 13vw;
-    height: 100px;
-    padding: 1.2rem;
+    width: 13.5vw;
+    height: 15vh;
+    padding: 1rem;
     padding-bottom: 1.8rem;
     margin: 1rem 0;
     border-radius: 30px;
@@ -25,7 +25,7 @@
     color: darkgrey;
 }
 .col h4{
-    font-size: 1.2rem;
+    font-size: 1.15em;
 }
 .card .status{
     background-color: rgb(204, 204, 204);
@@ -34,7 +34,7 @@
     margin: 2px;
     border-radius: 10px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8em;
     font-weight: 500;
     color: #fff;
     display: flex;
