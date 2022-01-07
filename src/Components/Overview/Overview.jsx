@@ -1,7 +1,7 @@
 import React from 'react'
 import './overview.css'
 import GraphCard from '../GraphCard/GraphCard'
-const data=[{num:1232},{num:2589},{num:1232},{num:2589},{num:1232},{num:2589},{num:1232},{num:2589},{num:1232},{num:2589},{num:1232},{num:2589}]
+
 export default function Overview(props) {
     return (
         <div className="container">

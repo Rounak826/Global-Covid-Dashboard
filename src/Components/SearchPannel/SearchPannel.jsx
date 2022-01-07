@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useState } from 'react'
 import './search.css'
 import { Search } from 'react-feather';
-import { useState } from 'react/cjs/react.development';
 import sort from './sort.svg';
 import { numFormatter } from '../Overview/Overview';
 let i=0;
