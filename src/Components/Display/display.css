@@ -1,0 +1,69 @@
+.bigGraph{
+    margin: 1rem 2rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.bigGraph .controls{
+    padding: 1rem;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bigGraph .controls button{
+    border:solid 1px #ffffff00;
+    text-align: left;
+    padding: 0.4rem 1rem;
+    border-radius: 4rem;
+    background: none;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    color: grey;
+    transition: all 0.3s ease-in;
+}
+.bigGraph .controls .confirm:hover{
+    color: #ff805d ;
+}
+.bigGraph .controls .active:hover{
+    color: #40cde8 ;
+}
+.bigGraph .controls .recovered:hover{
+    color: #61c589 ;
+}
+.bigGraph .controls .death:hover{
+    color: #aaaa ;
+}
+.bigGraph .controls .confirm:focus{
+    border:solid 1px #ff805d ;
+    color: #ff805d ;
+}
+.bigGraph .controls .active:focus{
+    border:solid 1px #40cde8 ;
+    color: #40cde8 ;
+}
+.bigGraph .controls .recovered:focus{
+    border:solid 1px #61c589 ;
+    color: #61c589 ;
+}
+.bigGraph .controls .death:focus{
+    border:solid 1px #aaaa ;
+    color: #aaaa ;
+
+}
+.bigGraph .controls select{
+    width: 8rem;
+    height: 2rem;
+    border: solid 2px #CCCC;
+    margin-left: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.bigGraph .graph{
+    width: initial;
+    height: 45vh;
+    padding: 1.4rem;
+}

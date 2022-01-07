@@ -1,0 +1,198 @@
+.pannel{
+    width: 15%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 1rem;
+
+}
+.pannel .top{
+    margin-top: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+}
+.pannel .top .search{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #d1d1d1;
+    border-radius: 5rem;
+    padding: 0 1rem;
+}
+
+.pannel .top .search input{
+    text-align: center;
+    border:none;
+    height: 2.2rem;
+    width: 100%;
+}
+.pannel .top .search input:focus{
+    outline: none;
+}
+.sortBtn{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 0.3rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    margin-left: 10px;
+}
+.sortBtn img{
+    height: 1.4rem;
+}
+.sortBtn:hover{
+    filter: invert(42%) sepia(54%) saturate(2374%) hue-rotate(192deg) brightness(101%) contrast(102%);
+}
+.sortBtn:focus{
+    border:solid 1px #1E90FF; 
+}
+.sort{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sort .sortOption{
+    padding: 5px 0.7rem;
+    background-color: #f1f1f100;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border: solid 2px #d8d8d8;
+    transition: all 0.3s ease-in;
+}
+.sortOption:focus{
+    color: #fff;
+}
+.Confirmed:hover{
+    border:solid 2px #ff805d;
+   color: #ff805d;
+}
+.Active:hover{
+    border:solid 2px #40cde8;
+    color: #40cde8;
+}
+.Recovered:hover{
+    border:solid 2px #61c589;
+    color: #61c589 ;
+}
+.Deaths:hover{
+    border:solid 2px #aaaa;
+    color: #aaaa;
+}
+.Name:hover{
+    border:solid 2px hsl(283, 100%, 74%);
+    color: hsl(283, 100%, 74%);
+}
+.Confirmed:focus{
+    border:solid 2px #ff805d;
+    background-color: #ff805d;
+}
+.Confirmed:focus:hover{
+    color: #fff;
+}
+.Active:focus{
+    border:solid 2px #40cde8;
+    background-color: #40cde8;
+}
+.Active:focus:hover{
+    color: #fff;
+}
+.Recovered:focus{
+    border:solid 2px #61c589;
+    background-color: #61c589 ;
+}
+.Recovered:focus:hover{
+    color: #fff;
+}
+.Deaths:focus{
+    border:solid 2px #aaaa;
+    background-color: #aaaa;
+}
+.Deaths:focus:hover{
+    color: #fff;
+}
+.Name:focus{
+    border:solid 2px hsl(283, 100%, 74%);
+    background-color: hsl(283, 100%, 74%);
+}
+.Name:focus:hover{
+    color: #fff;
+}
+.list{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75vh;
+    overflow-y: scroll;
+}
+.list button{
+    width: 100%;
+    height: 4rem;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    border:none;
+    background-color: #fff;
+    color: #383838;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom: solid 1px #aaaa;
+}
+.list button .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.list button .info p:first-child{
+    margin-left: 0;
+}
+.list button .info p{
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.C{
+    
+   color: #ff805d;
+}
+.A{
+    
+    color: #40cde8;
+}
+.R{
+    
+    color: #61c589 ;
+}
+.D{
+    
+    color: #aaaa;
+}
+.list button:hover{
+    background-color: #f7f7f7;
+   
+}
+.list::-webkit-scrollbar{
+    background: #Fff;
+    width: 10px;
+    border-radius: 5rem;
+}
+.list::-webkit-scrollbar-button{
+    display: none;
+}
+.list::-webkit-scrollbar-thumb{
+    background: rgb(204, 204, 204);
+    border-radius: 6rem;
+
+}

@@ -1,0 +1,48 @@
+.card{
+    width: 13vw;
+    height: 100px;
+    padding: 1.2rem;
+    padding-bottom: 1.8rem;
+    margin: 1rem 0;
+    border-radius: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.col p{
+    font-weight: 600;
+    color: darkgrey;
+}
+.col h4{
+    font-size: 1.2rem;
+}
+.card .status{
+    background-color: rgb(204, 204, 204);
+    width: 30%;
+    height:auto;
+    margin: 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .graph{
+    padding-top: 15px;
+    height: 80px;
+    width: 100%;
+}
