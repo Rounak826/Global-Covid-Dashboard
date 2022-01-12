@@ -61,7 +61,7 @@ function App() {
   const timeHandler = (e) => {
     setTime(e.target.value);
 
-    console.log(time);
+   //console.log(time);
   }
   const changeCountry = (country) => {
     setLocation(country);
